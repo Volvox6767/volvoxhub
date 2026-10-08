@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Volvox6767 — Ücretsiz Araçlar / Free Tools</title>
+<meta name="description" content="Ahmet Gedik'in ücretsiz, çevrimdışı çalışan araç koleksiyonu / Ahmet Gedik's collection of free, offline-friendly tools">
+<style>
+  :root{--bg:#0d1117;--panel:#161b22;--border:#30363d;--text:#e6edf3;--muted:#8b949e;--accent:#2f81f7;--green:#3fb950;--gold:#f7b32f}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'Segoe UI',system-ui,sans-serif;background:var(--bg);color:var(--text);min-height:100vh}
+  header{padding:48px 20px 26px;text-align:center;background:radial-gradient(ellipse at top,#1a2740 0%,var(--bg) 65%)}
+  .avatar{width:76px;height:76px;border-radius:50%;background:linear-gradient(135deg,var(--accent),var(--green));display:flex;align-items:center;justify-content:center;font-size:2rem;margin:0 auto 14px;font-weight:800;color:#fff}
+  header h1{font-size:2rem}
+  header h1 span{color:var(--accent)}
+  header .tag{color:var(--muted);margin-top:8px;font-size:1rem;max-width:640px;margin-left:auto;margin-right:auto;line-height:1.55}
+  header .ig{margin-top:12px}
+  header .ig a{color:var(--gold);text-decoration:none;font-weight:600}
+  .searchbox{max-width:480px;margin:24px auto 0;position:relative}
+  .searchbox input{width:100%;background:var(--panel);border:1px solid var(--border);border-radius:24px;padding:12px 20px;font-size:1rem;color:var(--text)}
+  .searchbox input:focus{outline:1px solid var(--accent)}
+  main{max-width:1000px;margin:0 auto;padding:26px 20px 40px}
+  h2{font-size:1.3rem;margin:34px 0 14px;border-bottom:1px solid var(--border);padding-bottom:8px}
+  h2 small{color:var(--muted);font-weight:400;font-size:.85rem}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px}
+  .card{display:block;background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:16px;text-decoration:none;color:var(--text);transition:transform .12s,border-color .12s}
+  .card:hover{transform:translateY(-3px);border-color:var(--accent)}
+  .card h3{font-size:1.05rem;margin-bottom:6px}
+  .card h3 em{font-style:normal;color:var(--muted);font-weight:400;font-size:.85rem;margin-left:6px}
+  .card p{color:var(--muted);font-size:.88rem;line-height:1.5}
+  .card .go{display:inline-block;margin-top:10px;color:var(--green);font-weight:700;font-size:.85rem}
+  .card.repo .go{color:var(--accent)}
+  .badge{display:inline-block;background:rgba(63,185,80,.15);color:var(--green);border-radius:12px;font-size:.68rem;padding:2px 9px;margin-bottom:8px;font-weight:700}
+  .badge.cli{background:rgba(47,129,247,.15);color:var(--accent)}
+  .hidden{display:none}
+  #noRes{text-align:center;color:var(--muted);padding:30px;display:none}
+  footer{border-top:1px solid var(--border);text-align:center;color:var(--muted);font-size:.82rem;padding:22px;line-height:1.8}
+  footer a{color:var(--gold);text-decoration:none}
+</style>
+</head>
+<body>
+<header>
+  <div class="avatar">V</div>
+  <h1>Volvox<span>6767</span> Araçları</h1>
+  <p class="tag">
+    🇹🇷 Günlük hayatta işine yarayan <b>ücretsiz araçlar</b>: tamamı tek dosya, kurulsuz, çoğu tamamen çevrimdışı. Dosyaların cihazından çıkmaz — hesap yok, reklam yok, takip yok.<br>
+    🇬🇧 <b>Free tools</b> for everyday needs: all single-file, no install, most fully offline. Your files never leave your device — no accounts, no ads, no tracking.
+  </p>
+  <p class="ig">👤 Ahmet Gedik · 📸 <a href="https://instagram.com/ahmetgedik67" target="_blank" rel="noopener">@ahmetgedik67</a></p>
+  <div class="searchbox"><input id="q" type="search" placeholder="🔍 Araç ara… / search tools… (örn: pdf, qr, video)" aria-label="araç ara"></div>
+</header>
+<main>
+  <h2 id="h-web">🌐 Tarayıcı araçları <small>/ Browser tools — kurulum yok, linke tıkla · no install, just click</small></h2>
+  <div class="grid" data-cat="web">
+    <a class="card" href="https://volvox6767.github.io/kelimen/" target="_blank" rel="noopener">
+      <span class="badge">CANLI · ONLINE</span>
+      <h3>🟩 kelimen <em>YourWord</em></h3>
+      <p>Günlük Türkçe kelime bulmacası — 1079 kelime, zorluk derecesi, arkadaşına meydan okuma. / Turkish daily word game — 1079 words, difficulty ratings, challenge a friend.</p>
+      <span class="go">▶ Oyna / Play →</span>
+    </a>
+    <a class="card" href="https://volvox6767.github.io/qrolustur/" target="_blank" rel="noopener">
+      <span class="badge">CANLI · ONLINE</span>
+      <h3>📱 qrolustur <em>QRDüzen</em></h3>
+      <p>Link & WiFi QR kodu üret — misafir okutur, WiFi'ye bağlanır, süresiz. / QR generator for links & WiFi — guests scan and join, never expires.</p>
+      <span class="go">▶ Aç / Open →</span>
+    </a>
+    <a class="card" href="https://volvox6767.github.io/sifreci/" target="_blank" rel="noopener">
+      <span class="badge">CANLI · ONLINE</span>
+      <h3>🔐 sifreci <em>Şifre</em></h3>
+      <p>Kriptografik rastgele şifre üretici — internet kapalıyken bile. / Crypto-random password generator, works offline.</p>
+      <span class="go">▶ Aç / Open →</span>
+    </a>
+    <a class="card" href="https://volvox6767.github.io/metinfark/" target="_blank" rel="noopener">
+      <span class="badge">CANLI · ONLINE</span>
+      <h3>⚖️ metinfark <em>MetinFark</em></h3>
+      <p>İki metni satır satır karşılaştır — eklenen/silinenler renkli, hiçbir yere yüklenmez. / Line-by-line text diff, color-coded, nothing uploaded.</p>
+      <span class="go">▶ Aç / Open →</span>
+    </a>
+    <a class="card" href="https://volvox6767.github.io/birimcevir/" target="_blank" rel="noopener">
+      <span class="badge">CANLI · ONLINE</span>
+      <h3>📐 birimcevir <em>BirimÇevir</em></h3>
+      <p>Uzunluk, ağırlık, sıcaklık, hacim, veri, hız birimleri — çay bardağı ölçüsü dahil! / Unit converter — incl. Turkish tea-glass measure!</p>
+      <span class="go">▶ Aç / Open →</span>
+    </a>
+    <a class="card" href="https://volvox6767.github.io/yazmahizi/" target="_blank" rel="noopener">
+      <span class="badge">CANLI · ONLINE</span>
+      <h3>⌨️ yazmahizi <em>YazmaHızı</em></h3>
+      <p>Türkçe/İngilizce kelimelerle klavye hız testi — WPM, doğruluk, seviye. / Typing speed test with TR/EN words — WPM, accuracy, grade.</p>
+      <span class="go">▶ Aç / Open →</span>
+    </a>
+  </div>
+
+  <h2 id="h-cli">🧰 Masaüstü / CLI araçları <small>/ Desktop tools — tek dosya Python, önce önizleme · single-file Python, dry-run first</small></h2>
+  <div class="grid" data-cat="cli">
+    <a class="card repo" href="https://github.com/Volvox6767/shrinkvid" target="_blank" rel="noopener">
+      <span class="badge cli">CLI · PYTHON</span>
+      <h3>🎬 shrinkvid <em>VideoKüçült</em></h3>
+      <p>Videoyu hedef boyuta sıkıştır — WhatsApp/Discord/e-posta limitine sığdır. / Shrink any video to an exact target size.</p>
+      <span class="go">Repo →</span>
+    </a>
+    <a class="card repo" href="https://github.com/Volvox6767/foldertidy" target="_blank" rel="noopener">
+      <span class="badge cli">CLI · PYTHON</span>
+      <h3>🗂️ foldertidy <em>KlasörDüzenci</em></h3>
+      <p>Dağınık klasörü düzenler, kopyaları bulur — asla silmez. / Tidy messy folders & find duplicates — never deletes.</p>
+      <span class="go">Repo →</span>
+    </a>
+    <a class="card repo" href="https://github.com/Volvox6767/picfit" target="_blank" rel="noopener">
+      <span class="badge cli">CLI · PYTHON</span>
+      <h3>🖼️ picfit <em>FotoSığdır</em></h3>
+      <p>Toplu fotoğraf boyutlandırma + GPS/EXIF konum verisi temizleme. / Batch-resize photos & strip GPS/EXIF data.</p>
+      <span class="go">Repo →</span>
+    </a>
+    <a class="card repo" href="https://github.com/Volvox6767/heic2jpg" target="_blank" rel="noopener">
+      <span class="badge cli">CLI · PYTHON</span>
+      <h3>📷 heic2jpg <em>FotoÇevir</em></h3>
+      <p>iPhone HEIC fotoğraflarını herkesin açabildiği JPG'ye çevir. / Convert iPhone HEIC photos to universal JPG.</p>
+      <span class="go">Repo →</span>
+    </a>
+    <a class="card repo" href="https://github.com/Volvox6767/pdfsplice" target="_blank" rel="noopener">
+      <span class="badge cli">CLI · PYTHON</span>
+      <h3>📄 pdfsplice <em>PDFBirleştir</em></h3>
+      <p>PDF birleştirme, bölme, sayfa çıkarma — tamamen çevrimdışı. / Merge, split & extract PDF pages — fully offline.</p>
+      <span class="go">Repo →</span>
+    </a>
+    <a class="card repo" href="https://github.com/Volvox6767/spacehog" target="_blank" rel="noopener">
+      <span class="badge cli">CLI · PYTHON</span>
+      <h3>🐗 spacehog <em>DiskDomuzu</em></h3>
+      <p>"Disk alanı nereye gitti?" — En çok yer yiyen dosya ve klasörleri bul. / Find what is eating your disk space.</p>
+      <span class="go">Repo →</span>
+    </a>
+    <a class="card repo" href="https://github.com/Volvox6767/yenisim" target="_blank" rel="noopener">
+      <span class="badge cli">CLI · PYTHON</span>
+      <h3>✏️ yenisim <em>YeniSim</em></h3>
+      <p>Toplu dosya yeniden adlandırıcı — değişiklikleri önce önizle. / Bulk file renamer — preview every change first.</p>
+      <span class="go">Repo →</span>
+    </a>
+    <a class="card repo" href="https://github.com/Volvox6767/termtoys" target="_blank" rel="noopener">
+      <span class="badge cli">CLI · PYTHON</span>
+      <h3>🕹️ termtoys <em>TerminalOyuncakları</em></h3>
+      <p>Terminalde 6 animasyon: matrix, ateş, yıldızlar, Life ve dahası. / 6 terminal toys: matrix, fire, starfield, Life & more.</p>
+      <span class="go">Repo →</span>
+    </a>
+  </div>
+
+  <h2 id="h-ai">🤖 AI</h2>
+  <div class="grid" data-cat="ai">
+    <a class="card repo" href="https://github.com/Volvox6767/FaceSwap" target="_blank" rel="noopener">
+      <span class="badge cli">ONNX · BROWSER</span>
+      <h3>😊 FaceSwap <em>YüzDeğiştir</em></h3>
+      <p>Tamamen tarayıcıda çalışan yüz değiştirme — veri hiçbir sunucuya gönderilmez. / In-browser face swap — nothing ever uploaded.</p>
+      <span class="go">Repo →</span>
+    </a>
+  </div>
+  <div id="noRes">😕 Sonuç yok / no results — başka bir kelime dene / try another word</div>
+</main>
+<footer>
+  ⚡ Tüm tarayıcı araçları tek dosyadır — indir, çift tıkla, çalışır · All browser tools are single files — download, double-click, done<br>
+  👤 Ahmet Gedik · 📸 Instagram: <a href="https://instagram.com/ahmetgedik67" target="_blank" rel="noopener">@ahmetgedik67</a> · ⭐ GitHub'da yıldız vermeyi unutma!
+</footer>
+<script>
+"use strict";
+const q=document.getElementById("q");
+q.addEventListener("input",()=>{
+  const s=q.value.trim().toLowerCase();
+  let total=0;
+  document.querySelectorAll(".card").forEach(c=>{
+    const hit=!s||c.textContent.toLowerCase().includes(s);
+    c.classList.toggle("hidden",!hit);
+    if(hit)total++;
+  });
+  document.querySelectorAll("main h2").forEach(h=>{
+    const grid=h.nextElementSibling;
+    const any=grid&&grid.querySelector(".card:not(.hidden)");
+    h.classList.toggle("hidden",!any);
+  });
+  document.getElementById("noRes").style.display=total?"none":"block";
+});
+</script>
+</body>
+</html>
